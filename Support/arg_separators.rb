@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby18 -wKU
+#!/usr/bin/env ruby -w
 
 commands = `/usr/local/bin/cmake --help-command-list`.to_a
 commands.shift # Skip version number
